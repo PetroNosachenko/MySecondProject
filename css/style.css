@@ -1,0 +1,218 @@
+/*body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cont {
+  width: 1170px;
+  margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+header {
+  background: linear-gradient(
+    135deg,
+    rgba(77, 192, 254, 1) 0%,
+    rgba(78, 189, 254, 1) 0%,
+    rgba(55, 144, 217, 1) 100%
+  );
+  /*filter: progid:DXImageTransform.Microsoft.gradient:  startColorstr='#4dc0fe', endColorstr='#3790d9', GradientType=1 ;*/
+}
+.text1 {
+  width: 610px;
+  margin-bottom: 40px;
+}
+h1 {
+  color: #fff;
+  font-family: Ubuntu-bold, sans-serif;
+  font-size: 37px;
+}
+span {
+  font-size: 46px;
+  font-size: 59px;
+}
+.text2 {
+  color: #fff;
+
+  margin-bottom: 40px;
+  line-height: 1.4;
+  font-family: OpenSans-Regular, sans-serif;
+  width: 400px;
+  font-size: 16px;
+}
+.desktop_img {
+}
+
+.box1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 35px;
+  padding-bottom: 50px;
+}
+.butn {
+  display: inline-block;
+  background: #ffd429;
+  padding: 15px;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: 900;
+  font-family: Montserrat-Black, sans-serif;
+  font-size: 15px;
+  width: 220px;
+  text-align: center;
+  color: #000;
+}
+.butn:hover {
+  background: #d4ff29;
+  color: #000;
+}
+h2 {
+  text-align: center;
+  font-family: Ubuntu-bold, sans-serif;
+  letter-spacing: 2px;
+  font-size: 30px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.free_time {
+  text-align: center;
+}
+h3 {
+  margin-top: 30px;
+  font-size: 19px;
+  font-family: Ubuntu-bold, sans-serif;
+  font-weight: bold;
+}
+.text4 {
+  margin-top: 20px;
+  /*margin-bottom: 100px;*/
+  font-size: 15px;
+  font-family: Ubuntu-Ragular, sans-serif;
+  line-height: 1.5;
+  width: 275px;
+}
+#form {
+  background: #ecf2f8;
+  padding-top: 50px;
+}
+#kont {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 60px;
+}
+input {
+  margin: 10px 0px;
+  padding: 0px 25px;
+  width: 400px;
+  height: 50px;
+  font-size: 15px;
+  font-family: Ubuntu-Regular, sans-serif;
+}
+button {
+  margin: 10px 0px;
+  padding: 0px 25px;
+  width: 400px;
+  height: 50px;
+  background: #ffd429;
+  font-weight: 900;
+  font-family: Montserrat-Black, sans-serif;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+footer {
+  background: #164d7a;
+}
+.futr {
+  text-align: center;
+  font-family: OpenSans-Regular, sans-serif;
+  color: #fff;
+  font-size: 15px;
+}
+
+/*Адаптация с Bootstrap*/
+
+/*992px-1200px - размер екрана*/
+@media screen and (max-width: 1200px) {
+  .cont {
+    width: 960px;
+  }
+  
+  .hed {
+    width: 100%;
+  }
+  
+  .text1 {
+    width: auto;
+  }
+ 
+/*768px-992px- размер екрана*/
+@media screen and (max-width: 992px) {
+  .cont {
+    width: 720px;
+  }
+  .box1 {
+    flex-direction: column;
+  }
+  .hed {
+    width: 100%;
+  }
+  .text1 {
+    width: auto;
+  }
+  .text2 {
+    width: auto;
+  }
+}
+
+/*576px-768px- размер екрана*/
+@media screen and (max-width: 768px) {
+  .cont {
+    width: 540px;
+  }
+  .hed {
+    width: 100%;
+  }
+  .text1 {
+    width: auto;
+  }
+  .text2 {
+    width: auto;
+  }
+  .butn{
+        width: auto;
+  }
+}
+
+/*0px-576px- размер екрана*/
+@media screen and (max-width: 576px) {
+  .cont {
+    width: 320px;
+  }
+  h1 {
+    font-size: 23px;
+  }
+  .desktop_img {
+    width: 100%;
+  }
+  .butn{
+        width: 100%;
+  }
+  input {
+    width: auto;
+  }
+  button {
+    width: auto;
+    padding: 0 42px;
+  }
+
+}
